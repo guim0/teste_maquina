@@ -1,0 +1,23 @@
+.header{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+
+    p{
+        font-size: 2rem;
+        margin-right: 2px;
+        color: #274264;
+    }
+    span{
+        color: #8798AD;
+        font-size: 1.2rem;
+    }
+
+    .toogle{
+        display: flex;
+        align-items: center;
+        margin-right: 2rem;
+    }
+}

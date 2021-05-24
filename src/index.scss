@@ -1,0 +1,19 @@
+.container-card{
+    display: flex;
+   flex-flow: wrap;
+    gap: 1.5rem;
+   
+   
+    justify-content: center;
+    @media screen and (min-width: 1310px) { 
+        display: flex;  
+        flex-flow: wrap;
+        gap: 2rem;
+        justify-content: flex-start;
+        padding-left: 20rem;
+         
+        
+    }
+
+}
+
