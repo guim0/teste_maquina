@@ -65,20 +65,23 @@
         span:nth-child(1){
             font-size:2rem;
 
-            margin-left: 2.1rem;
+            margin-left: 2rem;
             
         }
         span:nth-child(2){
             font-size: 1rem;
-            margin-left: 0.865rem;
+            margin-left: 0.5rem;
             color: #8798AD;
             text-transform: uppercase;
+            
+            width: 20px; 
+            
             
         }
         
     }
     .btn{
-        margin-right: 2rem;
+        margin-right: 1.75rem;
        
         button{
             color: white;

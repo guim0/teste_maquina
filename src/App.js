@@ -1,9 +1,10 @@
 import React from 'react'
-import Header from './Components/Header/Header'
 
-import Doacao from './Components/Cards/Doacao/Doacao'
-import Voluntariado from './Components/Cards/Voluntariado/Voluntariado';
-import Arrecadacao from './Components/Cards/Arrecadacao/Arrecadacao';
+import data from './data'
+import Header from './Components/Header/Header'
+import Card from  './Components/Cards/Card'
+
+
 
 function App() {
  
@@ -14,17 +15,21 @@ function App() {
 
 
         <div className="container-card">
-          <Voluntariado/>
-          <Doacao/>
-          <Arrecadacao />
 
-          <Voluntariado/>
-          <Doacao/>
-          <Arrecadacao />
-
-          <Voluntariado/>
-          <Doacao/>
-          <Arrecadacao />
+       {data.map(card => (
+         <Card
+          kind_job={card.kind_job}
+          title={card.title}
+          title_icon={card.title_icon}
+          project={card.project}
+          hourly_load={card.hourly_load}
+          how_long={card.how_long}
+          contributtion={card.contributtion}
+          locale={card.locale}
+       
+          /> 
+          ))}
+      
         </div>
     </div>
   );
