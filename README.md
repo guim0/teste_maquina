@@ -2,19 +2,19 @@
 Made specially for the Máquina do bem 💙
 
 ## 📌 **what did i do !?**
-**explain here**
+**As requested, here lies my resolution for the test propossed by Máquina do bem, Reactjs enviroment for cards, such as a geological switch and a responsive layout, i'll be glad to answer any question. Thanks!**
 
-## 📌 **How to run ?!**
+## 📌 **How to run ?**
  - with **yarn**: <br>
     **For install packages:**
     ```bash
     $ yarn 
     ```
-    **Add sass, because ... :**
+    **Add sass:**
     ```bash
     $ yarn add sass
     ```
-    **And then finality:**
+    **And then finally:**
     ```bash
     $ yarn start
     ```
@@ -22,7 +22,7 @@ Made specially for the Máquina do bem 💙
  - with **npm**: <br>
     **For install packages:**
     ```bash
-    $ npm isntall 
+    $ npm install
     ```
     **Add sass, because ... :**
     ```bash
@@ -38,5 +38,5 @@ Look the ip address in your terminal
 On Your Network: [IP HERE]
 ```
 #
-## **Thanks for getting this far** 🍻
+## **Thanks for getting this far** <3
 [**Access my linkedin**](https://linkedin.com.br)
